@@ -1,0 +1,62 @@
+
+Apriori
+=======
+
+Minimum support: 0.05 (1022 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 19
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Large Itemsets L(1):
+aussentemp=-363.750000 to 1150.875000 17923
+warmwasser=57.275000 to 58.550000 1207
+warmwasser=58.550000 to 59.825000 18422
+zirku=54.437500 to 54.950000 1397
+zirku=54.950000 to 55.462500 18992
+
+Size of set of large itemsets L(2): 7
+
+Large Itemsets L(2):
+aussentemp=-363.750000 to 1150.875000 warmwasser=57.275000 to 58.550000 1037
+aussentemp=-363.750000 to 1150.875000 warmwasser=58.550000 to 59.825000 16208
+aussentemp=-363.750000 to 1150.875000 zirku=54.437500 to 54.950000 1198
+aussentemp=-363.750000 to 1150.875000 zirku=54.950000 to 55.462500 16694
+warmwasser=57.275000 to 58.550000 zirku=54.950000 to 55.462500 1032
+warmwasser=58.550000 to 59.825000 zirku=54.437500 to 54.950000 1139
+warmwasser=58.550000 to 59.825000 zirku=54.950000 to 55.462500 17243
+
+Size of set of large itemsets L(3): 1
+
+Large Itemsets L(3):
+aussentemp=-363.750000 to 1150.875000 warmwasser=58.550000 to 59.825000 zirku=54.950000 to 55.462500 15210
+
+Best rules found:
+
+   1. aussentemp=-363.750000 to 1150.875000 warmwasser=58.550000 to 59.825000 16208 ==> zirku=54.950000 to 55.462500 15210    conf:(0.94)
+   2. warmwasser=58.550000 to 59.825000 18422 ==> zirku=54.950000 to 55.462500 17243    conf:(0.94)
+   3. aussentemp=-363.750000 to 1150.875000 17923 ==> zirku=54.950000 to 55.462500 16694    conf:(0.93)
+   4. aussentemp=-363.750000 to 1150.875000 zirku=54.950000 to 55.462500 16694 ==> warmwasser=58.550000 to 59.825000 15210    conf:(0.91)
+   5. zirku=54.950000 to 55.462500 18992 ==> warmwasser=58.550000 to 59.825000 17243    conf:(0.91)
+   6. aussentemp=-363.750000 to 1150.875000 17923 ==> warmwasser=58.550000 to 59.825000 16208    conf:(0.9)
+   7. warmwasser=58.550000 to 59.825000 zirku=54.950000 to 55.462500 17243 ==> aussentemp=-363.750000 to 1150.875000 15210    conf:(0.88)
+   8. warmwasser=58.550000 to 59.825000 18422 ==> aussentemp=-363.750000 to 1150.875000 16208    conf:(0.88)
+   9. zirku=54.950000 to 55.462500 18992 ==> aussentemp=-363.750000 to 1150.875000 16694    conf:(0.88)
+  10. warmwasser=57.275000 to 58.550000 1207 ==> aussentemp=-363.750000 to 1150.875000 1037    conf:(0.86)
+  11. zirku=54.437500 to 54.950000 1397 ==> aussentemp=-363.750000 to 1150.875000 1198    conf:(0.86)
+  12. warmwasser=57.275000 to 58.550000 1207 ==> zirku=54.950000 to 55.462500 1032    conf:(0.86)
+  13. aussentemp=-363.750000 to 1150.875000 17923 ==> warmwasser=58.550000 to 59.825000 zirku=54.950000 to 55.462500 15210    conf:(0.85)
+  14. warmwasser=58.550000 to 59.825000 18422 ==> aussentemp=-363.750000 to 1150.875000 zirku=54.950000 to 55.462500 15210    conf:(0.83)
+  15. zirku=54.437500 to 54.950000 1397 ==> warmwasser=58.550000 to 59.825000 1139    conf:(0.82)
+  16. zirku=54.950000 to 55.462500 18992 ==> aussentemp=-363.750000 to 1150.875000 warmwasser=58.550000 to 59.825000 15210    conf:(0.8)
+  17. aussentemp=-363.750000 to 1150.875000 17923 ==> zirku=54.437500 to 54.950000 1198    conf:(0.07)
+  18. warmwasser=58.550000 to 59.825000 18422 ==> zirku=54.437500 to 54.950000 1139    conf:(0.06)
+  19. aussentemp=-363.750000 to 1150.875000 17923 ==> warmwasser=57.275000 to 58.550000 1037    conf:(0.06)
+  20. zirku=54.950000 to 55.462500 18992 ==> warmwasser=57.275000 to 58.550000 1032    conf:(0.05)
+
+=== Evaluation ===
+
+Elapsed time: 3.993s
+

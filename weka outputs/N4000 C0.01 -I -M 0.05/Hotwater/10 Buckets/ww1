@@ -1,0 +1,66 @@
+
+Apriori
+=======
+
+Minimum support: 0.05 (1022 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 19
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Large Itemsets L(1):
+aussentemp=-969.600000 to 242.100000 17804
+warmwasser=58.040000 to 59.060000 2869
+warmwasser=59.060000 to 60.080000 16745
+zirku=54.540000 to 54.950000 1374
+zirku=54.950000 to 55.360000 18867
+
+Size of set of large itemsets L(2): 6
+
+Large Itemsets L(2):
+aussentemp=-969.600000 to 242.100000 warmwasser=58.040000 to 59.060000 2463
+aussentemp=-969.600000 to 242.100000 warmwasser=59.060000 to 60.080000 14653
+aussentemp=-969.600000 to 242.100000 zirku=54.540000 to 54.950000 1169
+aussentemp=-969.600000 to 242.100000 zirku=54.950000 to 55.360000 16497
+warmwasser=58.040000 to 59.060000 zirku=54.950000 to 55.360000 2431
+warmwasser=59.060000 to 60.080000 zirku=54.950000 to 55.360000 15715
+
+Size of set of large itemsets L(3): 2
+
+Large Itemsets L(3):
+aussentemp=-969.600000 to 242.100000 warmwasser=58.040000 to 59.060000 zirku=54.950000 to 55.360000 2089
+aussentemp=-969.600000 to 242.100000 warmwasser=59.060000 to 60.080000 zirku=54.950000 to 55.360000 13812
+
+Best rules found:
+
+   1. aussentemp=-969.600000 to 242.100000 warmwasser=59.060000 to 60.080000 14653 ==> zirku=54.950000 to 55.360000 13812    conf:(0.94)
+   2. warmwasser=59.060000 to 60.080000 16745 ==> zirku=54.950000 to 55.360000 15715    conf:(0.94)
+   3. aussentemp=-969.600000 to 242.100000 17804 ==> zirku=54.950000 to 55.360000 16497    conf:(0.93)
+   4. warmwasser=59.060000 to 60.080000 zirku=54.950000 to 55.360000 15715 ==> aussentemp=-969.600000 to 242.100000 13812    conf:(0.88)
+   5. warmwasser=59.060000 to 60.080000 16745 ==> aussentemp=-969.600000 to 242.100000 14653    conf:(0.88)
+   6. zirku=54.950000 to 55.360000 18867 ==> aussentemp=-969.600000 to 242.100000 16497    conf:(0.87)
+   7. warmwasser=58.040000 to 59.060000 zirku=54.950000 to 55.360000 2431 ==> aussentemp=-969.600000 to 242.100000 2089    conf:(0.86)
+   8. warmwasser=58.040000 to 59.060000 2869 ==> aussentemp=-969.600000 to 242.100000 2463    conf:(0.86)
+   9. zirku=54.540000 to 54.950000 1374 ==> aussentemp=-969.600000 to 242.100000 1169    conf:(0.85)
+  10. aussentemp=-969.600000 to 242.100000 warmwasser=58.040000 to 59.060000 2463 ==> zirku=54.950000 to 55.360000 2089    conf:(0.85)
+  11. warmwasser=58.040000 to 59.060000 2869 ==> zirku=54.950000 to 55.360000 2431    conf:(0.85)
+  12. aussentemp=-969.600000 to 242.100000 zirku=54.950000 to 55.360000 16497 ==> warmwasser=59.060000 to 60.080000 13812    conf:(0.84)
+  13. zirku=54.950000 to 55.360000 18867 ==> warmwasser=59.060000 to 60.080000 15715    conf:(0.83)
+  14. warmwasser=59.060000 to 60.080000 16745 ==> aussentemp=-969.600000 to 242.100000 zirku=54.950000 to 55.360000 13812    conf:(0.82)
+  15. aussentemp=-969.600000 to 242.100000 17804 ==> warmwasser=59.060000 to 60.080000 14653    conf:(0.82)
+  16. aussentemp=-969.600000 to 242.100000 17804 ==> warmwasser=59.060000 to 60.080000 zirku=54.950000 to 55.360000 13812    conf:(0.78)
+  17. zirku=54.950000 to 55.360000 18867 ==> aussentemp=-969.600000 to 242.100000 warmwasser=59.060000 to 60.080000 13812    conf:(0.73)
+  18. warmwasser=58.040000 to 59.060000 2869 ==> aussentemp=-969.600000 to 242.100000 zirku=54.950000 to 55.360000 2089    conf:(0.73)
+  19. aussentemp=-969.600000 to 242.100000 17804 ==> warmwasser=58.040000 to 59.060000 2463    conf:(0.14)
+  20. zirku=54.950000 to 55.360000 18867 ==> warmwasser=58.040000 to 59.060000 2431    conf:(0.13)
+  21. aussentemp=-969.600000 to 242.100000 zirku=54.950000 to 55.360000 16497 ==> warmwasser=58.040000 to 59.060000 2089    conf:(0.13)
+  22. aussentemp=-969.600000 to 242.100000 17804 ==> warmwasser=58.040000 to 59.060000 zirku=54.950000 to 55.360000 2089    conf:(0.12)
+  23. zirku=54.950000 to 55.360000 18867 ==> aussentemp=-969.600000 to 242.100000 warmwasser=58.040000 to 59.060000 2089    conf:(0.11)
+  24. aussentemp=-969.600000 to 242.100000 17804 ==> zirku=54.540000 to 54.950000 1169    conf:(0.07)
+
+=== Evaluation ===
+
+Elapsed time: 3.981s
+

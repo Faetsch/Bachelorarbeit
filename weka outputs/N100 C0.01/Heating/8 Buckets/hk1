@@ -1,0 +1,49 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (2026 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 17
+
+Size of set of large itemsets L(2): 10
+
+Size of set of large itemsets L(3): 1
+
+Best rules found:
+
+  1. vorlauf=59.025000 to 63.950000 rücklauf=33.650000 to 37.900000 2971 ==> spreizung=21.950000 to 29.575000 2928    conf:(0.99)
+  2. rücklauf=33.650000 to 37.900000 spreizung=21.950000 to 29.575000 3105 ==> vorlauf=59.025000 to 63.950000 2928    conf:(0.94)
+  3. rücklauf=33.650000 to 37.900000 3325 ==> spreizung=21.950000 to 29.575000 3105    conf:(0.93)
+  4. rücklauf=33.650000 to 37.900000 3325 ==> vorlauf=59.025000 to 63.950000 2971    conf:(0.89)
+  5. rücklauf=33.650000 to 37.900000 3325 ==> vorlauf=59.025000 to 63.950000 spreizung=21.950000 to 29.575000 2928    conf:(0.88)
+  6. spreizung=21.950000 to 29.575000 5602 ==> vorlauf=59.025000 to 63.950000 4928    conf:(0.88)
+  7. rücklauf=29.400000 to 33.650000 3452 ==> vorlauf=59.025000 to 63.950000 2865    conf:(0.83)
+  8. spreizung=6.700000 to 14.325000 3872 ==> vorlauf=54.100000 to 59.025000 3110    conf:(0.8)
+  9. spreizung=-0.925000 to 6.700000 3009 ==> vorlauf=54.100000 to 59.025000 2258    conf:(0.75)
+ 10. rücklauf=46.400000 to 50.650000 3453 ==> vorlauf=54.100000 to 59.025000 2439    conf:(0.71)
+ 11. rücklauf=29.400000 to 33.650000 3452 ==> spreizung=21.950000 to 29.575000 2365    conf:(0.69)
+ 12. rücklauf=46.400000 to 50.650000 3453 ==> spreizung=6.700000 to 14.325000 2304    conf:(0.67)
+ 13. vorlauf=59.025000 to 63.950000 7491 ==> spreizung=21.950000 to 29.575000 4928    conf:(0.66)
+ 14. spreizung=6.700000 to 14.325000 3872 ==> rücklauf=46.400000 to 50.650000 2304    conf:(0.6)
+ 15. vorlauf=59.025000 to 63.950000 spreizung=21.950000 to 29.575000 4928 ==> rücklauf=33.650000 to 37.900000 2928    conf:(0.59)
+ 16. spreizung=21.950000 to 29.575000 5602 ==> rücklauf=33.650000 to 37.900000 3105    conf:(0.55)
+ 17. spreizung=21.950000 to 29.575000 5602 ==> vorlauf=59.025000 to 63.950000 rücklauf=33.650000 to 37.900000 2928    conf:(0.52)
+ 18. aussentemp=14.875000 to 17.750000 5081 ==> vorlauf=59.025000 to 63.950000 2430    conf:(0.48)
+ 19. vorlauf=54.100000 to 59.025000 7316 ==> spreizung=6.700000 to 14.325000 3110    conf:(0.43)
+ 20. spreizung=21.950000 to 29.575000 5602 ==> rücklauf=29.400000 to 33.650000 2365    conf:(0.42)
+ 21. vorlauf=59.025000 to 63.950000 7491 ==> rücklauf=33.650000 to 37.900000 2971    conf:(0.4)
+ 22. vorlauf=59.025000 to 63.950000 7491 ==> rücklauf=33.650000 to 37.900000 spreizung=21.950000 to 29.575000 2928    conf:(0.39)
+ 23. vorlauf=59.025000 to 63.950000 7491 ==> rücklauf=29.400000 to 33.650000 2865    conf:(0.38)
+ 24. vorlauf=54.100000 to 59.025000 7316 ==> rücklauf=46.400000 to 50.650000 2439    conf:(0.33)
+ 25. vorlauf=59.025000 to 63.950000 7491 ==> aussentemp=14.875000 to 17.750000 2430    conf:(0.32)
+ 26. vorlauf=54.100000 to 59.025000 7316 ==> spreizung=-0.925000 to 6.700000 2258    conf:(0.31)
+
+=== Evaluation ===
+
+Elapsed time: 4.281s
+

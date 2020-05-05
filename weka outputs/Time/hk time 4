@@ -1,0 +1,184 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (2026 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 13
+
+Large Itemsets L(1):
+zeitpunkt=2018 20255
+aussentemp=12.000000 to 16.600000 5173
+aussentemp=16.600000 to 21.200000 6989
+aussentemp=21.200000 to 25.800000 3391
+aussentemp=25.800000 to 30.400000 3712
+vorlauf=42.280000 to 50.160000 2763
+vorlauf=50.160000 to 58.040000 7286
+vorlauf=58.040000 to 65.920000 8998
+ruecklauf=29.400000 to 36.200000 5909
+ruecklauf=36.200000 to 43.000000 2621
+ruecklauf=43.000000 to 49.800000 4079
+ruecklauf=49.800000 to 56.600000 4315
+ruecklauf=56.600000 to 63.400000 3329
+
+Size of set of large itemsets L(2): 20
+
+Large Itemsets L(2):
+zeitpunkt=2018 aussentemp=12.000000 to 16.600000 5173
+zeitpunkt=2018 aussentemp=16.600000 to 21.200000 6989
+zeitpunkt=2018 aussentemp=21.200000 to 25.800000 3391
+zeitpunkt=2018 aussentemp=25.800000 to 30.400000 3712
+zeitpunkt=2018 vorlauf=42.280000 to 50.160000 2763
+zeitpunkt=2018 vorlauf=50.160000 to 58.040000 7286
+zeitpunkt=2018 vorlauf=58.040000 to 65.920000 8998
+zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 5909
+zeitpunkt=2018 ruecklauf=36.200000 to 43.000000 2621
+zeitpunkt=2018 ruecklauf=43.000000 to 49.800000 4079
+zeitpunkt=2018 ruecklauf=49.800000 to 56.600000 4315
+zeitpunkt=2018 ruecklauf=56.600000 to 63.400000 3329
+aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901
+aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829
+aussentemp=16.600000 to 21.200000 vorlauf=50.160000 to 58.040000 2447
+aussentemp=16.600000 to 21.200000 vorlauf=58.040000 to 65.920000 3034
+vorlauf=42.280000 to 50.160000 ruecklauf=56.600000 to 63.400000 2182
+vorlauf=50.160000 to 58.040000 ruecklauf=43.000000 to 49.800000 2748
+vorlauf=50.160000 to 58.040000 ruecklauf=49.800000 to 56.600000 2837
+vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400
+
+Size of set of large itemsets L(3): 9
+
+Large Itemsets L(3):
+zeitpunkt=2018 aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901
+zeitpunkt=2018 aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829
+zeitpunkt=2018 aussentemp=16.600000 to 21.200000 vorlauf=50.160000 to 58.040000 2447
+zeitpunkt=2018 aussentemp=16.600000 to 21.200000 vorlauf=58.040000 to 65.920000 3034
+zeitpunkt=2018 vorlauf=42.280000 to 50.160000 ruecklauf=56.600000 to 63.400000 2182
+zeitpunkt=2018 vorlauf=50.160000 to 58.040000 ruecklauf=43.000000 to 49.800000 2748
+zeitpunkt=2018 vorlauf=50.160000 to 58.040000 ruecklauf=49.800000 to 56.600000 2837
+zeitpunkt=2018 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400
+aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405
+
+Size of set of large itemsets L(4): 1
+
+Large Itemsets L(4):
+zeitpunkt=2018 aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405
+
+Best rules found:
+
+   1. vorlauf=58.040000 to 65.920000 8998 ==> zeitpunkt=2018 8998    conf:(1)
+   2. vorlauf=50.160000 to 58.040000 7286 ==> zeitpunkt=2018 7286    conf:(1)
+   3. aussentemp=16.600000 to 21.200000 6989 ==> zeitpunkt=2018 6989    conf:(1)
+   4. ruecklauf=29.400000 to 36.200000 5909 ==> zeitpunkt=2018 5909    conf:(1)
+   5. vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400 ==> zeitpunkt=2018 5400    conf:(1)
+   6. aussentemp=12.000000 to 16.600000 5173 ==> zeitpunkt=2018 5173    conf:(1)
+   7. ruecklauf=49.800000 to 56.600000 4315 ==> zeitpunkt=2018 4315    conf:(1)
+   8. ruecklauf=43.000000 to 49.800000 4079 ==> zeitpunkt=2018 4079    conf:(1)
+   9. aussentemp=25.800000 to 30.400000 3712 ==> zeitpunkt=2018 3712    conf:(1)
+  10. aussentemp=21.200000 to 25.800000 3391 ==> zeitpunkt=2018 3391    conf:(1)
+  11. ruecklauf=56.600000 to 63.400000 3329 ==> zeitpunkt=2018 3329    conf:(1)
+  12. aussentemp=16.600000 to 21.200000 vorlauf=58.040000 to 65.920000 3034 ==> zeitpunkt=2018 3034    conf:(1)
+  13. aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901 ==> zeitpunkt=2018 2901    conf:(1)
+  14. vorlauf=50.160000 to 58.040000 ruecklauf=49.800000 to 56.600000 2837 ==> zeitpunkt=2018 2837    conf:(1)
+  15. aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829 ==> zeitpunkt=2018 2829    conf:(1)
+  16. vorlauf=42.280000 to 50.160000 2763 ==> zeitpunkt=2018 2763    conf:(1)
+  17. vorlauf=50.160000 to 58.040000 ruecklauf=43.000000 to 49.800000 2748 ==> zeitpunkt=2018 2748    conf:(1)
+  18. ruecklauf=36.200000 to 43.000000 2621 ==> zeitpunkt=2018 2621    conf:(1)
+  19. aussentemp=16.600000 to 21.200000 vorlauf=50.160000 to 58.040000 2447 ==> zeitpunkt=2018 2447    conf:(1)
+  20. aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405 ==> zeitpunkt=2018 2405    conf:(1)
+  21. vorlauf=42.280000 to 50.160000 ruecklauf=56.600000 to 63.400000 2182 ==> zeitpunkt=2018 2182    conf:(1)
+  22. ruecklauf=29.400000 to 36.200000 5909 ==> vorlauf=58.040000 to 65.920000 5400    conf:(0.91)
+  23. zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 5909 ==> vorlauf=58.040000 to 65.920000 5400    conf:(0.91)
+  24. ruecklauf=29.400000 to 36.200000 5909 ==> zeitpunkt=2018 vorlauf=58.040000 to 65.920000 5400    conf:(0.91)
+  25. aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829 ==> vorlauf=58.040000 to 65.920000 2405    conf:(0.85)
+  26. zeitpunkt=2018 aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829 ==> vorlauf=58.040000 to 65.920000 2405    conf:(0.85)
+  27. aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829 ==> zeitpunkt=2018 vorlauf=58.040000 to 65.920000 2405    conf:(0.85)
+  28. aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901 ==> ruecklauf=29.400000 to 36.200000 2405    conf:(0.83)
+  29. zeitpunkt=2018 aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901 ==> ruecklauf=29.400000 to 36.200000 2405    conf:(0.83)
+  30. aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901 ==> zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 2405    conf:(0.83)
+  31. vorlauf=42.280000 to 50.160000 2763 ==> ruecklauf=56.600000 to 63.400000 2182    conf:(0.79)
+  32. zeitpunkt=2018 vorlauf=42.280000 to 50.160000 2763 ==> ruecklauf=56.600000 to 63.400000 2182    conf:(0.79)
+  33. vorlauf=42.280000 to 50.160000 2763 ==> zeitpunkt=2018 ruecklauf=56.600000 to 63.400000 2182    conf:(0.79)
+  34. ruecklauf=43.000000 to 49.800000 4079 ==> vorlauf=50.160000 to 58.040000 2748    conf:(0.67)
+  35. zeitpunkt=2018 ruecklauf=43.000000 to 49.800000 4079 ==> vorlauf=50.160000 to 58.040000 2748    conf:(0.67)
+  36. ruecklauf=43.000000 to 49.800000 4079 ==> zeitpunkt=2018 vorlauf=50.160000 to 58.040000 2748    conf:(0.67)
+  37. ruecklauf=49.800000 to 56.600000 4315 ==> vorlauf=50.160000 to 58.040000 2837    conf:(0.66)
+  38. zeitpunkt=2018 ruecklauf=49.800000 to 56.600000 4315 ==> vorlauf=50.160000 to 58.040000 2837    conf:(0.66)
+  39. ruecklauf=49.800000 to 56.600000 4315 ==> zeitpunkt=2018 vorlauf=50.160000 to 58.040000 2837    conf:(0.66)
+  40. ruecklauf=56.600000 to 63.400000 3329 ==> vorlauf=42.280000 to 50.160000 2182    conf:(0.66)
+  41. zeitpunkt=2018 ruecklauf=56.600000 to 63.400000 3329 ==> vorlauf=42.280000 to 50.160000 2182    conf:(0.66)
+  42. ruecklauf=56.600000 to 63.400000 3329 ==> zeitpunkt=2018 vorlauf=42.280000 to 50.160000 2182    conf:(0.66)
+  43. vorlauf=58.040000 to 65.920000 8998 ==> ruecklauf=29.400000 to 36.200000 5400    conf:(0.6)
+  44. zeitpunkt=2018 vorlauf=58.040000 to 65.920000 8998 ==> ruecklauf=29.400000 to 36.200000 5400    conf:(0.6)
+  45. vorlauf=58.040000 to 65.920000 8998 ==> zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 5400    conf:(0.6)
+  46. aussentemp=12.000000 to 16.600000 5173 ==> vorlauf=58.040000 to 65.920000 2901    conf:(0.56)
+  47. zeitpunkt=2018 aussentemp=12.000000 to 16.600000 5173 ==> vorlauf=58.040000 to 65.920000 2901    conf:(0.56)
+  48. aussentemp=12.000000 to 16.600000 5173 ==> zeitpunkt=2018 vorlauf=58.040000 to 65.920000 2901    conf:(0.56)
+  49. aussentemp=12.000000 to 16.600000 5173 ==> ruecklauf=29.400000 to 36.200000 2829    conf:(0.55)
+  50. zeitpunkt=2018 aussentemp=12.000000 to 16.600000 5173 ==> ruecklauf=29.400000 to 36.200000 2829    conf:(0.55)
+  51. aussentemp=12.000000 to 16.600000 5173 ==> zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 2829    conf:(0.55)
+  52. ruecklauf=29.400000 to 36.200000 5909 ==> aussentemp=12.000000 to 16.600000 2829    conf:(0.48)
+  53. zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 5909 ==> aussentemp=12.000000 to 16.600000 2829    conf:(0.48)
+  54. ruecklauf=29.400000 to 36.200000 5909 ==> zeitpunkt=2018 aussentemp=12.000000 to 16.600000 2829    conf:(0.48)
+  55. aussentemp=12.000000 to 16.600000 5173 ==> vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.46)
+  56. zeitpunkt=2018 aussentemp=12.000000 to 16.600000 5173 ==> vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.46)
+  57. aussentemp=12.000000 to 16.600000 5173 ==> zeitpunkt=2018 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.46)
+  58. vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400 ==> aussentemp=12.000000 to 16.600000 2405    conf:(0.45)
+  59. zeitpunkt=2018 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400 ==> aussentemp=12.000000 to 16.600000 2405    conf:(0.45)
+  60. vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400 ==> zeitpunkt=2018 aussentemp=12.000000 to 16.600000 2405    conf:(0.45)
+  61. zeitpunkt=2018 20255 ==> vorlauf=58.040000 to 65.920000 8998    conf:(0.44)
+  62. aussentemp=16.600000 to 21.200000 6989 ==> vorlauf=58.040000 to 65.920000 3034    conf:(0.43)
+  63. zeitpunkt=2018 aussentemp=16.600000 to 21.200000 6989 ==> vorlauf=58.040000 to 65.920000 3034    conf:(0.43)
+  64. aussentemp=16.600000 to 21.200000 6989 ==> zeitpunkt=2018 vorlauf=58.040000 to 65.920000 3034    conf:(0.43)
+  65. ruecklauf=29.400000 to 36.200000 5909 ==> aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2405    conf:(0.41)
+  66. zeitpunkt=2018 ruecklauf=29.400000 to 36.200000 5909 ==> aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2405    conf:(0.41)
+  67. ruecklauf=29.400000 to 36.200000 5909 ==> zeitpunkt=2018 aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2405    conf:(0.41)
+  68. vorlauf=50.160000 to 58.040000 7286 ==> ruecklauf=49.800000 to 56.600000 2837    conf:(0.39)
+  69. zeitpunkt=2018 vorlauf=50.160000 to 58.040000 7286 ==> ruecklauf=49.800000 to 56.600000 2837    conf:(0.39)
+  70. vorlauf=50.160000 to 58.040000 7286 ==> zeitpunkt=2018 ruecklauf=49.800000 to 56.600000 2837    conf:(0.39)
+  71. vorlauf=50.160000 to 58.040000 7286 ==> ruecklauf=43.000000 to 49.800000 2748    conf:(0.38)
+  72. zeitpunkt=2018 vorlauf=50.160000 to 58.040000 7286 ==> ruecklauf=43.000000 to 49.800000 2748    conf:(0.38)
+  73. vorlauf=50.160000 to 58.040000 7286 ==> zeitpunkt=2018 ruecklauf=43.000000 to 49.800000 2748    conf:(0.38)
+  74. zeitpunkt=2018 20255 ==> vorlauf=50.160000 to 58.040000 7286    conf:(0.36)
+  75. aussentemp=16.600000 to 21.200000 6989 ==> vorlauf=50.160000 to 58.040000 2447    conf:(0.35)
+  76. zeitpunkt=2018 aussentemp=16.600000 to 21.200000 6989 ==> vorlauf=50.160000 to 58.040000 2447    conf:(0.35)
+  77. aussentemp=16.600000 to 21.200000 6989 ==> zeitpunkt=2018 vorlauf=50.160000 to 58.040000 2447    conf:(0.35)
+  78. zeitpunkt=2018 20255 ==> aussentemp=16.600000 to 21.200000 6989    conf:(0.35)
+  79. vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=16.600000 to 21.200000 3034    conf:(0.34)
+  80. zeitpunkt=2018 vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=16.600000 to 21.200000 3034    conf:(0.34)
+  81. vorlauf=58.040000 to 65.920000 8998 ==> zeitpunkt=2018 aussentemp=16.600000 to 21.200000 3034    conf:(0.34)
+  82. vorlauf=50.160000 to 58.040000 7286 ==> aussentemp=16.600000 to 21.200000 2447    conf:(0.34)
+  83. zeitpunkt=2018 vorlauf=50.160000 to 58.040000 7286 ==> aussentemp=16.600000 to 21.200000 2447    conf:(0.34)
+  84. vorlauf=50.160000 to 58.040000 7286 ==> zeitpunkt=2018 aussentemp=16.600000 to 21.200000 2447    conf:(0.34)
+  85. vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=12.000000 to 16.600000 2901    conf:(0.32)
+  86. zeitpunkt=2018 vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=12.000000 to 16.600000 2901    conf:(0.32)
+  87. vorlauf=58.040000 to 65.920000 8998 ==> zeitpunkt=2018 aussentemp=12.000000 to 16.600000 2901    conf:(0.32)
+  88. zeitpunkt=2018 20255 ==> ruecklauf=29.400000 to 36.200000 5909    conf:(0.29)
+  89. vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.27)
+  90. zeitpunkt=2018 vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.27)
+  91. vorlauf=58.040000 to 65.920000 8998 ==> zeitpunkt=2018 aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.27)
+  92. zeitpunkt=2018 20255 ==> vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400    conf:(0.27)
+  93. zeitpunkt=2018 20255 ==> aussentemp=12.000000 to 16.600000 5173    conf:(0.26)
+  94. zeitpunkt=2018 20255 ==> ruecklauf=49.800000 to 56.600000 4315    conf:(0.21)
+  95. zeitpunkt=2018 20255 ==> ruecklauf=43.000000 to 49.800000 4079    conf:(0.2)
+  96. zeitpunkt=2018 20255 ==> aussentemp=25.800000 to 30.400000 3712    conf:(0.18)
+  97. zeitpunkt=2018 20255 ==> aussentemp=21.200000 to 25.800000 3391    conf:(0.17)
+  98. zeitpunkt=2018 20255 ==> ruecklauf=56.600000 to 63.400000 3329    conf:(0.16)
+  99. zeitpunkt=2018 20255 ==> aussentemp=16.600000 to 21.200000 vorlauf=58.040000 to 65.920000 3034    conf:(0.15)
+ 100. zeitpunkt=2018 20255 ==> aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901    conf:(0.14)
+ 101. zeitpunkt=2018 20255 ==> vorlauf=50.160000 to 58.040000 ruecklauf=49.800000 to 56.600000 2837    conf:(0.14)
+ 102. zeitpunkt=2018 20255 ==> aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829    conf:(0.14)
+ 103. zeitpunkt=2018 20255 ==> vorlauf=42.280000 to 50.160000 2763    conf:(0.14)
+ 104. zeitpunkt=2018 20255 ==> vorlauf=50.160000 to 58.040000 ruecklauf=43.000000 to 49.800000 2748    conf:(0.14)
+ 105. zeitpunkt=2018 20255 ==> ruecklauf=36.200000 to 43.000000 2621    conf:(0.13)
+ 106. zeitpunkt=2018 20255 ==> aussentemp=16.600000 to 21.200000 vorlauf=50.160000 to 58.040000 2447    conf:(0.12)
+ 107. zeitpunkt=2018 20255 ==> aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.12)
+ 108. zeitpunkt=2018 20255 ==> vorlauf=42.280000 to 50.160000 ruecklauf=56.600000 to 63.400000 2182    conf:(0.11)
+
+=== Evaluation ===
+
+Elapsed time: 0.164s
+

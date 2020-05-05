@@ -1,0 +1,72 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (2026 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 12
+
+Large Itemsets L(1):
+aussentemp=12.000000 to 16.600000 5173
+aussentemp=16.600000 to 21.200000 6989
+aussentemp=21.200000 to 25.800000 3391
+aussentemp=25.800000 to 30.400000 3712
+vorlauf=42.280000 to 50.160000 2763
+vorlauf=50.160000 to 58.040000 7286
+vorlauf=58.040000 to 65.920000 8998
+ruecklauf=29.400000 to 36.200000 5909
+ruecklauf=36.200000 to 43.000000 2621
+ruecklauf=43.000000 to 49.800000 4079
+ruecklauf=49.800000 to 56.600000 4315
+ruecklauf=56.600000 to 63.400000 3329
+
+Size of set of large itemsets L(2): 8
+
+Large Itemsets L(2):
+aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901
+aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829
+aussentemp=16.600000 to 21.200000 vorlauf=50.160000 to 58.040000 2447
+aussentemp=16.600000 to 21.200000 vorlauf=58.040000 to 65.920000 3034
+vorlauf=42.280000 to 50.160000 ruecklauf=56.600000 to 63.400000 2182
+vorlauf=50.160000 to 58.040000 ruecklauf=43.000000 to 49.800000 2748
+vorlauf=50.160000 to 58.040000 ruecklauf=49.800000 to 56.600000 2837
+vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400
+
+Size of set of large itemsets L(3): 1
+
+Large Itemsets L(3):
+aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405
+
+Best rules found:
+
+   1. ruecklauf=29.400000 to 36.200000 5909 ==> vorlauf=58.040000 to 65.920000 5400    conf:(0.91)
+   2. aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2829 ==> vorlauf=58.040000 to 65.920000 2405    conf:(0.85)
+   3. aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2901 ==> ruecklauf=29.400000 to 36.200000 2405    conf:(0.83)
+   4. vorlauf=42.280000 to 50.160000 2763 ==> ruecklauf=56.600000 to 63.400000 2182    conf:(0.79)
+   5. ruecklauf=43.000000 to 49.800000 4079 ==> vorlauf=50.160000 to 58.040000 2748    conf:(0.67)
+   6. ruecklauf=49.800000 to 56.600000 4315 ==> vorlauf=50.160000 to 58.040000 2837    conf:(0.66)
+   7. ruecklauf=56.600000 to 63.400000 3329 ==> vorlauf=42.280000 to 50.160000 2182    conf:(0.66)
+   8. vorlauf=58.040000 to 65.920000 8998 ==> ruecklauf=29.400000 to 36.200000 5400    conf:(0.6)
+   9. aussentemp=12.000000 to 16.600000 5173 ==> vorlauf=58.040000 to 65.920000 2901    conf:(0.56)
+  10. aussentemp=12.000000 to 16.600000 5173 ==> ruecklauf=29.400000 to 36.200000 2829    conf:(0.55)
+  11. ruecklauf=29.400000 to 36.200000 5909 ==> aussentemp=12.000000 to 16.600000 2829    conf:(0.48)
+  12. aussentemp=12.000000 to 16.600000 5173 ==> vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.46)
+  13. vorlauf=58.040000 to 65.920000 ruecklauf=29.400000 to 36.200000 5400 ==> aussentemp=12.000000 to 16.600000 2405    conf:(0.45)
+  14. aussentemp=16.600000 to 21.200000 6989 ==> vorlauf=58.040000 to 65.920000 3034    conf:(0.43)
+  15. ruecklauf=29.400000 to 36.200000 5909 ==> aussentemp=12.000000 to 16.600000 vorlauf=58.040000 to 65.920000 2405    conf:(0.41)
+  16. vorlauf=50.160000 to 58.040000 7286 ==> ruecklauf=49.800000 to 56.600000 2837    conf:(0.39)
+  17. vorlauf=50.160000 to 58.040000 7286 ==> ruecklauf=43.000000 to 49.800000 2748    conf:(0.38)
+  18. aussentemp=16.600000 to 21.200000 6989 ==> vorlauf=50.160000 to 58.040000 2447    conf:(0.35)
+  19. vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=16.600000 to 21.200000 3034    conf:(0.34)
+  20. vorlauf=50.160000 to 58.040000 7286 ==> aussentemp=16.600000 to 21.200000 2447    conf:(0.34)
+  21. vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=12.000000 to 16.600000 2901    conf:(0.32)
+  22. vorlauf=58.040000 to 65.920000 8998 ==> aussentemp=12.000000 to 16.600000 ruecklauf=29.400000 to 36.200000 2405    conf:(0.27)
+
+=== Evaluation ===
+
+Elapsed time: 0.179s
+

@@ -1,0 +1,54 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (2026 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 17
+
+Large Itemsets L(1):
+aussentemp=14.300000 to 16.600000 3476
+aussentemp=16.600000 to 18.900000 4111
+aussentemp=18.900000 to 21.200000 2878
+aussentemp=25.800000 to 28.100000 2565
+vorlauf=54.100000 to 58.040000 5815
+vorlauf=58.040000 to 61.980000 6711
+vorlauf=61.980000 to 65.920000 2287
+ruecklauf=29.400000 to 32.800000 2131
+ruecklauf=32.800000 to 36.200000 3778
+ruecklauf=46.400000 to 49.800000 2634
+ruecklauf=49.800000 to 53.200000 2653
+ruecklauf=56.600000 to 60.000000 2338
+spreizung=-17.700000 to -11.600000 2492
+spreizung=0.600000 to 6.700000 2716
+spreizung=18.900000 to 25.000000 2032
+spreizung=25.000000 to 31.100000 5336
+spreizung=6.700000 to 12.800000 3318
+
+Size of set of large itemsets L(2): 4
+
+Large Itemsets L(2):
+vorlauf=54.100000 to 58.040000 spreizung=6.700000 to 12.800000 2230
+vorlauf=58.040000 to 61.980000 ruecklauf=32.800000 to 36.200000 2135
+vorlauf=58.040000 to 61.980000 spreizung=25.000000 to 31.100000 3225
+ruecklauf=32.800000 to 36.200000 spreizung=25.000000 to 31.100000 3248
+
+Best rules found:
+
+   1. ruecklauf=32.800000 to 36.200000 3778 ==> spreizung=25.000000 to 31.100000 3248    conf:(0.86)
+   2. spreizung=6.700000 to 12.800000 3318 ==> vorlauf=54.100000 to 58.040000 2230    conf:(0.67)
+   3. spreizung=25.000000 to 31.100000 5336 ==> ruecklauf=32.800000 to 36.200000 3248    conf:(0.61)
+   4. spreizung=25.000000 to 31.100000 5336 ==> vorlauf=58.040000 to 61.980000 3225    conf:(0.6)
+   5. ruecklauf=32.800000 to 36.200000 3778 ==> vorlauf=58.040000 to 61.980000 2135    conf:(0.57)
+   6. vorlauf=58.040000 to 61.980000 6711 ==> spreizung=25.000000 to 31.100000 3225    conf:(0.48)
+   7. vorlauf=54.100000 to 58.040000 5815 ==> spreizung=6.700000 to 12.800000 2230    conf:(0.38)
+   8. vorlauf=58.040000 to 61.980000 6711 ==> ruecklauf=32.800000 to 36.200000 2135    conf:(0.32)
+
+=== Evaluation ===
+
+Elapsed time: 4.393s
+

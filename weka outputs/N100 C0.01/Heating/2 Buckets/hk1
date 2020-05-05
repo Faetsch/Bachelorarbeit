@@ -1,0 +1,125 @@
+
+Apriori
+=======
+
+Minimum support: 0.15 (3038 instances)
+Minimum metric <confidence>: 0.01
+Number of cycles performed: 17
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 16
+
+Size of set of large itemsets L(3): 10
+
+Size of set of large itemsets L(4): 2
+
+Best rules found:
+
+  1. vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 9760 ==> spreizung=6.700000 to 37.200000 9760    conf:(1)
+  2. aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 7769 ==> spreizung=6.700000 to 37.200000 7769    conf:(1)
+  3. vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 5153 ==> spreizung=-23.800000 to 6.700000 5137    conf:(1)
+  4. aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 3901 ==> spreizung=-23.800000 to 6.700000 3886    conf:(1)
+  5. aussentemp=23.500000 to 35.000000 spreizung=6.700000 to 37.200000 3732 ==> vorlauf=54.100000 to 73.800000 3703    conf:(0.99)
+  6. rücklauf=29.400000 to 46.400000 10040 ==> spreizung=6.700000 to 37.200000 9955    conf:(0.99)
+  7. aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 8012 ==> spreizung=6.700000 to 37.200000 7936    conf:(0.99)
+  8. spreizung=-23.800000 to 6.700000 7682 ==> rücklauf=46.400000 to 63.400000 7597    conf:(0.99)
+  9. aussentemp=12.000000 to 23.500000 spreizung=-23.800000 to 6.700000 4986 ==> rücklauf=46.400000 to 63.400000 4910    conf:(0.98)
+ 10. vorlauf=34.400000 to 54.100000 spreizung=-23.800000 to 6.700000 5222 ==> rücklauf=46.400000 to 63.400000 5137    conf:(0.98)
+ 11. spreizung=6.700000 to 37.200000 12573 ==> vorlauf=54.100000 to 73.800000 12362    conf:(0.98)
+ 12. aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 spreizung=-23.800000 to 6.700000 3962 ==> rücklauf=46.400000 to 63.400000 3886    conf:(0.98)
+ 13. rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 9955 ==> vorlauf=54.100000 to 73.800000 9760    conf:(0.98)
+ 14. aussentemp=12.000000 to 23.500000 spreizung=6.700000 to 37.200000 8841 ==> vorlauf=54.100000 to 73.800000 8659    conf:(0.98)
+ 15. aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 7936 ==> vorlauf=54.100000 to 73.800000 7769    conf:(0.98)
+ 16. rücklauf=29.400000 to 46.400000 10040 ==> vorlauf=54.100000 to 73.800000 9760    conf:(0.97)
+ 17. rücklauf=29.400000 to 46.400000 10040 ==> vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 9760    conf:(0.97)
+ 18. aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 8012 ==> vorlauf=54.100000 to 73.800000 7769    conf:(0.97)
+ 19. aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 8012 ==> vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 7769    conf:(0.97)
+ 20. vorlauf=34.400000 to 54.100000 5433 ==> spreizung=-23.800000 to 6.700000 5222    conf:(0.96)
+ 21. aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 4144 ==> spreizung=-23.800000 to 6.700000 3962    conf:(0.96)
+ 22. vorlauf=34.400000 to 54.100000 5433 ==> rücklauf=46.400000 to 63.400000 5153    conf:(0.95)
+ 23. vorlauf=34.400000 to 54.100000 5433 ==> rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 5137    conf:(0.95)
+ 24. aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 4144 ==> rücklauf=46.400000 to 63.400000 3901    conf:(0.94)
+ 25. aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 4144 ==> rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 3886    conf:(0.94)
+ 26. aussentemp=12.000000 to 23.500000 spreizung=6.700000 to 37.200000 8841 ==> rücklauf=29.400000 to 46.400000 7936    conf:(0.9)
+ 27. aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 8659 ==> rücklauf=29.400000 to 46.400000 7769    conf:(0.9)
+ 28. aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 9683 ==> spreizung=6.700000 to 37.200000 8659    conf:(0.89)
+ 29. aussentemp=12.000000 to 23.500000 spreizung=6.700000 to 37.200000 8841 ==> vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 7769    conf:(0.88)
+ 30. aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 5815 ==> spreizung=-23.800000 to 6.700000 4910    conf:(0.84)
+ 31. vorlauf=54.100000 to 73.800000 14822 ==> spreizung=6.700000 to 37.200000 12362    conf:(0.83)
+ 32. aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 9683 ==> rücklauf=29.400000 to 46.400000 7769    conf:(0.8)
+ 33. aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 9683 ==> rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 7769    conf:(0.8)
+ 34. aussentemp=23.500000 to 35.000000 6428 ==> vorlauf=54.100000 to 73.800000 5139    conf:(0.8)
+ 35. rücklauf=29.400000 to 46.400000 10040 ==> aussentemp=12.000000 to 23.500000 8012    conf:(0.8)
+ 36. rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 9955 ==> aussentemp=12.000000 to 23.500000 7936    conf:(0.8)
+ 37. vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 9760 ==> aussentemp=12.000000 to 23.500000 7769    conf:(0.8)
+ 38. vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 9760 ==> aussentemp=12.000000 to 23.500000 7769    conf:(0.8)
+ 39. vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 9760 ==> aussentemp=12.000000 to 23.500000 spreizung=6.700000 to 37.200000 7769    conf:(0.8)
+ 40. aussentemp=12.000000 to 23.500000 spreizung=-23.800000 to 6.700000 4986 ==> vorlauf=34.400000 to 54.100000 3962    conf:(0.79)
+ 41. spreizung=6.700000 to 37.200000 12573 ==> rücklauf=29.400000 to 46.400000 9955    conf:(0.79)
+ 42. aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 4910 ==> vorlauf=34.400000 to 54.100000 3886    conf:(0.79)
+ 43. rücklauf=29.400000 to 46.400000 10040 ==> aussentemp=12.000000 to 23.500000 spreizung=6.700000 to 37.200000 7936    conf:(0.79)
+ 44. vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 12362 ==> rücklauf=29.400000 to 46.400000 9760    conf:(0.79)
+ 45. rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 9955 ==> aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 7769    conf:(0.78)
+ 46. aussentemp=12.000000 to 23.500000 spreizung=-23.800000 to 6.700000 4986 ==> vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 3886    conf:(0.78)
+ 47. spreizung=6.700000 to 37.200000 12573 ==> vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 9760    conf:(0.78)
+ 48. rücklauf=29.400000 to 46.400000 10040 ==> aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 7769    conf:(0.77)
+ 49. rücklauf=29.400000 to 46.400000 10040 ==> aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 7769    conf:(0.77)
+ 50. vorlauf=34.400000 to 54.100000 5433 ==> aussentemp=12.000000 to 23.500000 4144    conf:(0.76)
+ 51. vorlauf=34.400000 to 54.100000 spreizung=-23.800000 to 6.700000 5222 ==> aussentemp=12.000000 to 23.500000 3962    conf:(0.76)
+ 52. vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 5153 ==> aussentemp=12.000000 to 23.500000 3901    conf:(0.76)
+ 53. vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 5137 ==> aussentemp=12.000000 to 23.500000 3886    conf:(0.76)
+ 54. vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 5153 ==> aussentemp=12.000000 to 23.500000 spreizung=-23.800000 to 6.700000 3886    conf:(0.75)
+ 55. vorlauf=34.400000 to 54.100000 spreizung=-23.800000 to 6.700000 5222 ==> aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 3886    conf:(0.74)
+ 56. rücklauf=46.400000 to 63.400000 10215 ==> spreizung=-23.800000 to 6.700000 7597    conf:(0.74)
+ 57. vorlauf=34.400000 to 54.100000 5433 ==> aussentemp=12.000000 to 23.500000 spreizung=-23.800000 to 6.700000 3962    conf:(0.73)
+ 58. aussentemp=23.500000 to 35.000000 vorlauf=54.100000 to 73.800000 5139 ==> spreizung=6.700000 to 37.200000 3703    conf:(0.72)
+ 59. vorlauf=34.400000 to 54.100000 5433 ==> aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 3901    conf:(0.72)
+ 60. aussentemp=23.500000 to 35.000000 rücklauf=46.400000 to 63.400000 4400 ==> vorlauf=54.100000 to 73.800000 3148    conf:(0.72)
+ 61. vorlauf=34.400000 to 54.100000 5433 ==> aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 3886    conf:(0.72)
+ 62. spreizung=6.700000 to 37.200000 12573 ==> aussentemp=12.000000 to 23.500000 8841    conf:(0.7)
+ 63. vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 12362 ==> aussentemp=12.000000 to 23.500000 8659    conf:(0.7)
+ 64. aussentemp=12.000000 to 23.500000 13827 ==> vorlauf=54.100000 to 73.800000 9683    conf:(0.7)
+ 65. spreizung=6.700000 to 37.200000 12573 ==> aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 8659    conf:(0.69)
+ 66. aussentemp=23.500000 to 35.000000 6428 ==> rücklauf=46.400000 to 63.400000 4400    conf:(0.68)
+ 67. spreizung=-23.800000 to 6.700000 7682 ==> vorlauf=34.400000 to 54.100000 5222    conf:(0.68)
+ 68. rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 7597 ==> vorlauf=34.400000 to 54.100000 5137    conf:(0.68)
+ 69. aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 5815 ==> vorlauf=34.400000 to 54.100000 3901    conf:(0.67)
+ 70. spreizung=-23.800000 to 6.700000 7682 ==> vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 5137    conf:(0.67)
+ 71. aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 5815 ==> vorlauf=34.400000 to 54.100000 spreizung=-23.800000 to 6.700000 3886    conf:(0.67)
+ 72. vorlauf=54.100000 to 73.800000 14822 ==> rücklauf=29.400000 to 46.400000 9760    conf:(0.66)
+ 73. vorlauf=54.100000 to 73.800000 14822 ==> rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 9760    conf:(0.66)
+ 74. vorlauf=54.100000 to 73.800000 14822 ==> aussentemp=12.000000 to 23.500000 9683    conf:(0.65)
+ 75. spreizung=-23.800000 to 6.700000 7682 ==> aussentemp=12.000000 to 23.500000 4986    conf:(0.65)
+ 76. rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 7597 ==> aussentemp=12.000000 to 23.500000 4910    conf:(0.65)
+ 77. aussentemp=12.000000 to 23.500000 13827 ==> spreizung=6.700000 to 37.200000 8841    conf:(0.64)
+ 78. spreizung=-23.800000 to 6.700000 7682 ==> aussentemp=12.000000 to 23.500000 rücklauf=46.400000 to 63.400000 4910    conf:(0.64)
+ 79. spreizung=6.700000 to 37.200000 12573 ==> aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 7936    conf:(0.63)
+ 80. vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 12362 ==> aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 7769    conf:(0.63)
+ 81. aussentemp=12.000000 to 23.500000 13827 ==> vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 8659    conf:(0.63)
+ 82. vorlauf=54.100000 to 73.800000 rücklauf=46.400000 to 63.400000 5062 ==> aussentemp=23.500000 to 35.000000 3148    conf:(0.62)
+ 83. spreizung=6.700000 to 37.200000 12573 ==> aussentemp=12.000000 to 23.500000 vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 7769    conf:(0.62)
+ 84. aussentemp=23.500000 to 35.000000 vorlauf=54.100000 to 73.800000 5139 ==> rücklauf=46.400000 to 63.400000 3148    conf:(0.61)
+ 85. vorlauf=54.100000 to 73.800000 14822 ==> aussentemp=12.000000 to 23.500000 spreizung=6.700000 to 37.200000 8659    conf:(0.58)
+ 86. aussentemp=23.500000 to 35.000000 6428 ==> spreizung=6.700000 to 37.200000 3732    conf:(0.58)
+ 87. aussentemp=12.000000 to 23.500000 13827 ==> rücklauf=29.400000 to 46.400000 8012    conf:(0.58)
+ 88. aussentemp=23.500000 to 35.000000 6428 ==> vorlauf=54.100000 to 73.800000 spreizung=6.700000 to 37.200000 3703    conf:(0.58)
+ 89. aussentemp=12.000000 to 23.500000 13827 ==> rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 7936    conf:(0.57)
+ 90. rücklauf=46.400000 to 63.400000 10215 ==> aussentemp=12.000000 to 23.500000 5815    conf:(0.57)
+ 91. aussentemp=12.000000 to 23.500000 13827 ==> vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 7769    conf:(0.56)
+ 92. aussentemp=12.000000 to 23.500000 13827 ==> vorlauf=54.100000 to 73.800000 rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 7769    conf:(0.56)
+ 93. vorlauf=54.100000 to 73.800000 14822 ==> aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 7769    conf:(0.52)
+ 94. vorlauf=54.100000 to 73.800000 14822 ==> aussentemp=12.000000 to 23.500000 rücklauf=29.400000 to 46.400000 spreizung=6.700000 to 37.200000 7769    conf:(0.52)
+ 95. spreizung=-23.800000 to 6.700000 7682 ==> aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 3962    conf:(0.52)
+ 96. rücklauf=46.400000 to 63.400000 spreizung=-23.800000 to 6.700000 7597 ==> aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 3886    conf:(0.51)
+ 97. spreizung=-23.800000 to 6.700000 7682 ==> aussentemp=12.000000 to 23.500000 vorlauf=34.400000 to 54.100000 rücklauf=46.400000 to 63.400000 3886    conf:(0.51)
+ 98. rücklauf=46.400000 to 63.400000 10215 ==> vorlauf=34.400000 to 54.100000 5153    conf:(0.5)
+ 99. rücklauf=46.400000 to 63.400000 10215 ==> vorlauf=34.400000 to 54.100000 spreizung=-23.800000 to 6.700000 5137    conf:(0.5)
+100. rücklauf=46.400000 to 63.400000 10215 ==> vorlauf=54.100000 to 73.800000 5062    conf:(0.5)
+
+=== Evaluation ===
+
+Elapsed time: 4.061s
+
