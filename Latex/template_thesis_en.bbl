@@ -1,0 +1,159 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{LHM{\etalchar{+}}98}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxjtitlefont}%
+  \providebibliographyfont{btitle}{\btxbtitlefont}%
+  \providebibliographyfont{stitle}{\btxstitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem [{AS{\etalchar{+}}94}]{agrawal1994fast}
+\btxnamefont {Rakesh \btxlastnamefont {Agrawal}}, \btxnamefont {Ramakrishnan
+  \btxlastnamefont {Srikant}}\btxandcomma {} \btxetalfont {\btxetalshort
+  {.}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Fast algorithms for
+  mining association rules}{Fast algorithms for mining association rules}}.
+\newblock \Btxinlong {}\ \btxbtitlefont {Proc. 20th int. conf. very large data
+  bases, VLDB}, \btxvolumelong {}\ \btxvolumefont {1215}, \btxpageslong {}\
+  487--499, 1994.
+
+\bibitem [{BG06}]{bellaachia2006predicting}
+\btxnamefont {Abdelghani \btxlastnamefont {Bellaachia}} \btxandlong {}\
+  \btxnamefont {Erhan \btxlastnamefont {Guven}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Predicting breast cancer survivability using data mining
+  techniques}{Predicting breast cancer survivability using data mining
+  techniques}}.
+\newblock \btxjournalfont {Age}, 58(13):10--110, 2006.
+
+\bibitem [{BH09}]{bissantz2009data}
+\btxnamefont {Nicolas \btxlastnamefont {Bissantz}} \btxandlong {}\ \btxnamefont
+  {J{\"u}rgen \btxlastnamefont {Hagedorn}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Data mining (datenmustererkennung)}{Data Mining
+  (Datenmustererkennung)}}.
+\newblock \btxjournalfont {Wirtschaftsinformatik}, 51(1):139--144, 2009.
+
+\bibitem [{Bic16}]{bickton2016climate}
+\btxnamefont {Fanuel\btxfnamespacelong M \btxlastnamefont
+  {Bickton}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Climate change
+  as the biggest threat to public health in southern africa and measures to
+  reduce its impacts}{Climate change as the biggest threat to public health in
+  southern Africa and measures to reduce its impacts}}.
+\newblock \btxjournalfont {Malawi Medical Journal}, 28(2):70--72, 2016.
+
+\bibitem [{Blo15}]{blockeel2015data}
+\btxnamefont {Hendrik \btxlastnamefont {Blockeel}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Data mining: from procedural to declarative
+  approaches}{Data mining: from procedural to declarative approaches}}.
+\newblock \btxjournalfont {New Generation Computing}, 33(2):115--135, 2015.
+
+\bibitem [{DAR11}]{dent2011application}
+\btxnamefont {Ian \btxlastnamefont {Dent}}, \btxnamefont {Uwe \btxlastnamefont
+  {Aickelin}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Tom \btxlastnamefont
+  {Rodden}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {The application
+  of a data mining framework to energy usage profiling in domestic residences
+  using uk data}{The application of a data mining framework to energy usage
+  profiling in domestic residences using UK data}}.
+\newblock \btxjournalfont {Available at SSRN 2829282}, 2011.
+
+\bibitem [{EF}]{docarff}
+\btxnamefont {Len\btxfnamespacelong Trigg \btxlastnamefont
+  {Eibe~Frank},~Gordon~Paynter}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Arff documentation}{ARFF documentation}}.
+\newblock https://www.cs.waikato.ac.nz/ml/weka/arff.html, Last accessed:
+  2020-03-10.
+
+\bibitem [{ene}]{eneriq}
+\btxtitlefont {\btxifchangecase {Ener-iq presentation page}{ENER-IQ
+  presentation page}}.
+\newblock https://eneriq.com/, Last accessed: 2020-03-12.
+
+\bibitem [{GLS{\etalchar{+}}12}]{garcia2012survey}
+\btxnamefont {Salvador \btxlastnamefont {Garcia}}, \btxnamefont {Julian
+  \btxlastnamefont {Luengo}}, \btxnamefont {Jos{\'e}\btxfnamespacelong Antonio
+  \btxlastnamefont {S{\'a}ez}}, \btxnamefont {Victoria \btxlastnamefont
+  {Lopez}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Francisco
+  \btxlastnamefont {Herrera}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {A survey of discretization techniques: Taxonomy and empirical analysis in
+  supervised learning}{A survey of discretization techniques: Taxonomy and
+  empirical analysis in supervised learning}}.
+\newblock \btxjournalfont {IEEE Transactions on Knowledge and Data
+  Engineering}, 25(4):734--750, 2012.
+
+\bibitem [{HFH{\etalchar{+}}09}]{hall2009weka}
+\btxnamefont {Mark \btxlastnamefont {Hall}}, \btxnamefont {Eibe
+  \btxlastnamefont {Frank}}, \btxnamefont {Geoffrey \btxlastnamefont {Holmes}},
+  \btxnamefont {Bernhard \btxlastnamefont {Pfahringer}}, \btxnamefont {Peter
+  \btxlastnamefont {Reutemann}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Ian\btxfnamespacelong H \btxlastnamefont {Witten}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {The weka data mining software: an
+  update}{The WEKA data mining software: an update}}.
+\newblock \btxjournalfont {ACM SIGKDD explorations newsletter}, 11(1):10--18,
+  2009.
+
+\bibitem [{JLZW09}]{jiang2009approximate}
+\btxnamefont {Sheng\btxfnamespacelong yi \btxlastnamefont {Jiang}},
+  \btxnamefont {Xia \btxlastnamefont {Li}}, \btxnamefont {Qi \btxlastnamefont
+  {Zheng}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Lian\btxfnamespacelong
+  xi \btxlastnamefont {Wang}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Approximate equal frequency discretization method}{Approximate equal
+  frequency discretization method}}.
+\newblock \Btxinlong {}\ \btxbtitlefont {2009 WRI Global Congress on
+  Intelligent Systems}, \btxvolumelong {}~\btxvolumefont {3}, \btxpageslong {}\
+  514--518. IEEE, 2009.
+
+\bibitem [{LHM{\etalchar{+}}98}]{liu1998integrating}
+\btxnamefont {Bing \btxlastnamefont {Liu}}, \btxnamefont {Wynne
+  \btxlastnamefont {Hsu}}, \btxnamefont {Yiming \btxlastnamefont
+  {Ma}}\btxandcomma {} \btxetalfont {\btxetalshort {.}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Integrating classification and association
+  rule mining.}{Integrating classification and association rule mining.}}
+\newblock \Btxinlong {}\ \btxbtitlefont {KDD}, \btxvolumelong {}~\btxvolumefont
+  {98}, \btxpageslong {}\ 80--86, 1998.
+
+\bibitem [{NLS90}]{naruo1990development}
+\btxnamefont {NOBUYUKI \btxlastnamefont {NARUO}}, \btxnamefont {Mark
+  \btxlastnamefont {Lehto}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Gavriel \btxlastnamefont {Salvendy}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Development of a knowledge-based decision support system
+  for diagnosing malfunctions of advanced production equipment}{Development of
+  a knowledge-based decision support system for diagnosing malfunctions of
+  advanced production equipment}}.
+\newblock \btxjournalfont {THE INTERNATIONAL JOURNAL OF PRODUCTION RESEARCH},
+  28(12):2259--2276, 1990.
+
+\bibitem [{Sri14}]{srivastava2014weka}
+\btxnamefont {Shweta \btxlastnamefont {Srivastava}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Weka: a tool for data preprocessing,
+  classification, ensemble, clustering and association rule mining}{Weka: a
+  tool for data preprocessing, classification, ensemble, clustering and
+  association rule mining}}.
+\newblock \btxjournalfont {International Journal of Computer Applications},
+  88(10), 2014.
+
+\bibitem [{YC06}]{ye2006parallel}
+\btxnamefont {Yanbin \btxlastnamefont {Ye}} \btxandlong {}\ \btxnamefont
+  {Chia\btxfnamespacelong Chu \btxlastnamefont {Chiang}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {A parallel apriori algorithm for frequent
+  itemsets mining}{A parallel apriori algorithm for frequent itemsets mining}}.
+\newblock \Btxinlong {}\ \btxbtitlefont {Fourth International Conference on
+  Software Engineering Research, Management and Applications (SERA'06)},
+  \btxpageslong {}\ 87--94. IEEE, 2006.
+
+\bibitem [{YWW09}]{yang2009discretization}
+\btxnamefont {Ying \btxlastnamefont {Yang}}, \btxnamefont
+  {Geoffrey\btxfnamespacelong I \btxlastnamefont {Webb}}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {Xindong \btxlastnamefont {Wu}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Discretization methods}{Discretization
+  methods}}.
+\newblock \Btxinlong {}\ \btxbtitlefont {Data mining and knowledge discovery
+  handbook}, \btxpageslong {}\ 101--116. \btxpublisherfont {Springer}, 2009.
+
+\end{thebibliography}

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: template_thesis_en.aux
+The style file: mybabalpha-fl.bst
+Database file #1: mybib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--to sort, need author or key in eneriq
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty language in agrawal1994fast
+You've used 16 entries,
+            3258 wiz_defined-function locations,
+            802 strings with 9381 characters,
+and the built_in function-call counts, 8409 in all, are:
+= -- 776
+> -- 327
+< -- 12
++ -- 118
+- -- 114
+* -- 916
+:= -- 1175
+add.period$ -- 35
+call.type$ -- 16
+change.case$ -- 103
+chr.to.int$ -- 16
+cite$ -- 19
+duplicate$ -- 415
+empty$ -- 721
+format.name$ -- 221
+if$ -- 1734
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 23
+newline$ -- 83
+num.names$ -- 45
+pop$ -- 143
+preamble$ -- 1
+purify$ -- 119
+quote$ -- 0
+skip$ -- 272
+stack$ -- 0
+substring$ -- 427
+swap$ -- 166
+text.length$ -- 12
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 128
+warning$ -- 2
+while$ -- 70
+width$ -- 18
+write$ -- 178
+(There were 2 warnings)

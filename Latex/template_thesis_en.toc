@@ -1,0 +1,42 @@
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}Fundamentals}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Declarative Data Mining}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Association Rule Mining}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Finding frequent item sets with Apriori}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Mining association rules with WEKA-Apriori}{9}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Heating Circuits}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Components}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Measurements}{13}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Preprocessing of CSV-data}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Types of data}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Strategies}{17}{subsection.2.3.2}
+\contentsline {subsubsection}{\nonumberline Equal-Width Discretization}{17}{section*.12}
+\contentsline {subsubsection}{\nonumberline Substringing}{18}{section*.14}
+\contentsline {subsubsection}{\nonumberline Generating new attributes}{19}{section*.15}
+\contentsline {chapter}{\numberline {3}Related work}{20}{chapter.3}
+\contentsline {chapter}{\numberline {4}Approach}{21}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementation}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}CSV-Preprocessor in Java}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}CSV-Preprocessor wrapper in Prolog}{25}{section.5.2}
+\contentsline {section}{\numberline {5.3}Implementation of experiments}{26}{section.5.3}
+\contentsline {section}{\numberline {5.4}Declare}{27}{section.5.4}
+\contentsline {chapter}{\numberline {6}Experiments and Evaluation}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}Dealing with nominal value columns}{28}{section.6.1}
+\contentsline {section}{\numberline {6.2}Dealing with floating point value columns}{29}{section.6.2}
+\contentsline {section}{\numberline {6.3}Comparison of amount of itemsets and rules extracted}{29}{section.6.3}
+\contentsline {section}{\numberline {6.4}Comparing different preprocessing presets on the same heater}{30}{section.6.4}
+\contentsline {section}{\numberline {6.5}Attempting to extract knowledge regarding anomalies}{32}{section.6.5}
+\contentsline {section}{\numberline {6.6}Comparing rules mined under differently prioritized metrics}{33}{section.6.6}
+\contentsline {section}{\numberline {6.7}Attempting to extract knowledge regarding time}{33}{section.6.7}
+\contentsline {chapter}{\numberline {7}Future work}{34}{chapter.7}
+\contentsline {chapter}{\numberline {8}Summary}{35}{chapter.8}
+\contentsline {chapter}{\nonumberline Bibliography}{36}{chapter*.19}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
